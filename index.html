@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Ali Awais | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <canvas id="particles-canvas"></canvas>
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo-link">
+        <div class="logo">
+          <span class="logo-text">AA</span>
+          <div class="logo-glow"></div>
+        </div>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-item active">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-overlay" id="mobile-overlay"></div>
+  <div class="mobile-menu" id="mobile-menu">
+    <button class="close-menu" id="close-menu">&times;</button>
+    <ul>
+      <li><a href="#home" class="mob-link">Home</a></li>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+  <section id="home" class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-text" data-aos="fade-right">
+        <p class="hero-greeting">Hello, I am</p>
+        <h1 class="hero-name">
+          <span class="name-ali">Ali</span>
+          <span class="name-awais">Awais</span>
+        </h1>
+        <div class="typewriter-wrapper">
+          <span class="typewriter-prefix">I am a </span>
+          <span class="typewriter" id="typewriter"></span>
+          <span class="cursor">|</span>
+        </div>
+        <p class="hero-desc">Passionate web developer and designer crafting immersive digital experiences with modern technologies and creative design.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Work</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Hire Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://wa.me/923445840925" target="_blank" class="social-icon whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:aliawais9895025@gmail.com" class="social-icon gmail" title="Gmail"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/" target="_blank" class="social-icon github" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/" target="_blank" class="social-icon linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://instagram.com/" target="_blank" class="social-icon instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-left">
+        <div class="profile-3d-wrapper">
+          <div class="profile-ring ring-1"></div>
+          <div class="profile-ring ring-2"></div>
+          <div class="profile-ring ring-3"></div>
+          <div class="profile-img-container">
+            <img src="assets/profile.jpg" alt="Ali Awais" class="profile-img" />
+            <div class="img-glow"></div>
+          </div>
+          <div class="floating-badge badge-1"><i class="fas fa-code"></i><span>Web Dev</span></div>
+          <div class="floating-badge badge-2"><i class="fas fa-palette"></i><span>Designer</span></div>
+          <div class="floating-badge badge-3"><i class="fas fa-star"></i><span>Creative</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down"><a href="#about"><div class="scroll-arrow"><span></span><span></span><span></span></div></a></div>
+  </section>
+  <section id="about" class="about section">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Who Am I</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-img-wrap" data-aos="fade-right">
+          <div class="about-img-card">
+            <img src="assets/profile.jpg" alt="Ali Awais" />
+            <div class="about-img-overlay"><p>Ali Awais</p></div>
+          </div>
+          <div class="about-exp-badge">
+            <span class="exp-number">2+</span>
+            <span class="exp-text">Years Experience</span>
+          </div>
+        </div>
+        <div class="about-info" data-aos="fade-left">
+          <h3>A Passionate <span class="gradient-text">Web Developer</span> and Creative Designer</h3>
+          <p>Hi! I am <strong>Ali Awais</strong>, a dedicated web developer and creative designer with a passion for building beautiful, functional, and user-friendly digital experiences.</p>
+          <p>I specialize in modern front-end technologies, creating responsive websites and interactive applications that leave a lasting impression. My approach blends technical expertise with artistic creativity.</p>
+          <div class="about-stats">
+            <div class="stat-item"><span class="stat-num">20+</span><span class="stat-label">Projects</span></div>
+            <div class="stat-item"><span class="stat-num">15+</span><span class="stat-label">Clients</span></div>
+            <div class="stat-item"><span class="stat-num">2+</span><span class="stat-label">Years Exp</span></div>
+          </div>
+          <div class="about-details">
+            <div class="detail-item"><i class="fas fa-user"></i><span><strong>Name:</strong> Ali Awais</span></div>
+            <div class="detail-item"><i class="fas fa-envelope"></i><span><strong>Email:</strong> aliawais9895025@gmail.com</span></div>
+            <div class="detail-item"><i class="fab fa-whatsapp"></i><span><strong>WhatsApp:</strong> +92 344 5840925</span></div>
+            <div class="detail-item"><i class="fas fa-map-marker-alt"></i><span><strong>Location:</strong> Pakistan</span></div>
+          </div>
+          <a href="#contact" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="skills section">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card" data-aos="zoom-in"><div class="skill-icon html"><i class="fab fa-html5"></i></div><h4>HTML5</h4><div class="skill-bar"><div class="skill-fill" data-width="95%"></div></div><span class="skill-pct">95%</span></div>
+        <div class="skill-card" data-aos="zoom-in"><div class="skill-icon css"><i class="fab fa-css3-alt"></i></div><h4>CSS3</h4><div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div><span class="skill-pct">90%</span></div>
+        <div class="skill-card" data-aos="zoom-in"><div class="skill-icon js"><i class="fab fa-js-square"></i></div><h4>JavaScript</h4><div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-card" data-aos="zoom-in"><div class="skill-icon react"><i class="fab fa-react"></i></div><h4>React JS</h4><div class="skill-bar"><div class="skill-fill" data-width="80%"></div></div><span class="skill-pct">80%</span></div>
+        <div class="skill-card" data-aos="zoom-in"><div class="skill-icon node"><i class="fab fa-node-js"></i></div><h4>Node.js</h4><div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div><span class="skill-pct">70%</span></div>
+        <div class="skill-card" data-aos="zoom-in"><div class="skill-icon figma"><i class="fab fa-figma"></i></div><h4>UI/UX Design</h4><div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-card" data-aos="zoom-in"><div class="skill-icon git"><i class="fab fa-git-alt"></i></div><h4>Git and GitHub</h4><div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div><span class="skill-pct">88%</span></div>
+        <div class="skill-card" data-aos="zoom-in"><div class="skill-icon db"><i class="fas fa-database"></i></div><h4>Databases</h4><div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div><span class="skill-pct">75%</span></div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects section">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">Latest <span class="gradient-text">Projects</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="filter-btns" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="app">App</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="web" data-aos="fade-up">
+          <div class="project-img"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="E-Commerce" /><div class="project-overlay"><div class="project-links"><a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-link"><i class="fab fa-github"></i></a></div></div></div>
+          <div class="project-info"><span class="proj-tag">Web Dev</span><h3>E-Commerce Platform</h3><p>A fully functional e-commerce website with cart, payment gateway, and admin panel built with React and Node.js.</p><div class="proj-techs"><span>React</span><span>Node.js</span><span>MongoDB</span></div></div>
+        </div>
+        <div class="project-card" data-category="design" data-aos="fade-up">
+          <div class="project-img"><img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&q=80" alt="Portfolio" /><div class="project-overlay"><div class="project-links"><a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-link"><i class="fab fa-github"></i></a></div></div></div>
+          <div class="project-info"><span class="proj-tag">UI/UX</span><h3>Creative Portfolio Design</h3><p>A stunning portfolio website design with modern animations, 3D effects, and smooth scroll interactions.</p><div class="proj-techs"><span>Figma</span><span>CSS3</span><span>GSAP</span></div></div>
+        </div>
+        <div class="project-card" data-category="app" data-aos="fade-up">
+          <div class="project-img"><img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" alt="App" /><div class="project-overlay"><div class="project-links"><a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-link"><i class="fab fa-github"></i></a></div></div></div>
+          <div class="project-info"><span class="proj-tag">Mobile App</span><h3>Food Delivery App</h3><p>A responsive food delivery mobile application with real-time tracking and payment integration.</p><div class="proj-techs"><span>React Native</span><span>Firebase</span></div></div>
+        </div>
+        <div class="project-card" data-category="web" data-aos="fade-up">
+          <div class="project-img"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Dashboard" /><div class="project-overlay"><div class="project-links"><a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-link"><i class="fab fa-github"></i></a></div></div></div>
+          <div class="project-info"><span class="proj-tag">Web Dev</span><h3>Analytics Dashboard</h3><p>Interactive analytics dashboard with real-time charts, data visualization, and dynamic filtering.</p><div class="proj-techs"><span>JavaScript</span><span>Chart.js</span><span>REST API</span></div></div>
+        </div>
+        <div class="project-card" data-category="design" data-aos="fade-up">
+          <div class="project-img"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=600&q=80" alt="Brand" /><div class="project-overlay"><div class="project-links"><a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-link"><i class="fab fa-github"></i></a></div></div></div>
+          <div class="project-info"><span class="proj-tag">Branding</span><h3>Brand Identity Design</h3><p>Complete brand identity design including logo, color palette, typography, and brand guidelines.</p><div class="proj-techs"><span>Illustrator</span><span>Photoshop</span></div></div>
+        </div>
+        <div class="project-card" data-category="web" data-aos="fade-up">
+          <div class="project-img"><img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&q=80" alt="Landing" /><div class="project-overlay"><div class="project-links"><a href="#" class="proj-link"><i class="fas fa-external-link-alt"></i></a><a href="#" class="proj-link"><i class="fab fa-github"></i></a></div></div></div>
+          <div class="project-info"><span class="proj-tag">Web Dev</span><h3>SaaS Landing Page</h3><p>High-converting SaaS landing page with modern design, smooth animations, and CTA optimization.</p><div class="proj-techs"><span>HTML5</span><span>CSS3</span><span>JS</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact section">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Let's <span class="gradient-text">Work Together</span></h3>
+          <p>Have a project in mind or want to collaborate? Feel free to reach out through any of the channels below.</p>
+          <div class="contact-cards">
+            <a href="https://wa.me/923445840925" target="_blank" class="contact-card whatsapp-card">
+              <div class="contact-card-icon"><i class="fab fa-whatsapp"></i></div>
+              <div class="contact-card-info"><span class="card-label">WhatsApp</span><span class="card-value">+92 344 5840925</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
+            </a>
+            <a href="mailto:aliawais9895025@gmail.com" class="contact-card gmail-card">
+              <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-card-info"><span class="card-label">Gmail</span><span class="card-value">aliawais9895025@gmail.com</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
+            </a>
+            <a href="https://github.com/" target="_blank" class="contact-card github-card">
+              <div class="contact-card-icon"><i class="fab fa-github"></i></div>
+              <div class="contact-card-info"><span class="card-label">GitHub</span><span class="card-value">github.com/aliawais</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
+            </a>
+            <a href="https://linkedin.com/in/" target="_blank" class="contact-card linkedin-card">
+              <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div class="contact-card-info"><span class="card-label">LinkedIn</span><span class="card-value">linkedin.com/in/aliawais</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
+            </a>
+            <a href="https://instagram.com/" target="_blank" class="contact-card instagram-card">
+              <div class="contact-card-icon"><i class="fab fa-instagram"></i></div>
+              <div class="contact-card-info"><span class="card-label">Instagram</span><span class="card-value">@aliawais</span></div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap" data-aos="fade-left">
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name"><i class="fas fa-user"></i> Your Name</label>
+              <input type="text" id="name" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+              <input type="email" id="email" placeholder="Enter your email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+              <input type="text" id="subject" placeholder="What is this about?" required />
+            </div>
+            <div class="form-group">
+              <label for="message"><i class="fas fa-comment"></i> Message</label>
+              <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo"><div class="logo"><span class="logo-text">AA</span></div><p>Ali Awais</p></div>
+      <p class="footer-copy">2024 Ali Awais. All Rights Reserved. Made with love.</p>
+      <div class="footer-socials">
+        <a href="https://wa.me/923445840925" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:aliawais9895025@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+  <button class="back-top" id="back-top"><i class="fas fa-chevron-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>
